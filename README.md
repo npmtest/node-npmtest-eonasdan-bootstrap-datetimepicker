@@ -41,12 +41,6 @@
     "bugs": {
         "url": "https://github.com/eonasdan/bootstrap-datetimepicker/issues"
     },
-    "peerDependencies": {
-        "bootstrap": "^3.3",
-        "jquery": "^1.8.3 || ^2.0 || ^3.0",
-        "moment": "^2.10",
-        "moment-timezone": "^0.4.0"
-    },
     "dependencies": {
         "bootstrap": "^3.3",
         "jquery": "^1.8.3 || ^2.0 || ^3.0",
@@ -67,6 +61,12 @@
         "grunt-string-replace": "latest",
         "load-grunt-tasks": "latest"
     },
+    "directories": {},
+    "dist": {
+        "shasum": "7a49970044065276e7965efd16f822735219e735",
+        "tarball": "https://registry.npmjs.org/eonasdan-bootstrap-datetimepicker/-/eonasdan-bootstrap-datetimepicker-4.17.47.tgz"
+    },
+    "gitHead": "646299ff633307c0375048efd3169631ba49c0b3",
     "homepage": "http://eonasdan.github.io/bootstrap-datetimepicker/",
     "keywords": [
         "twitter-bootstrap",
@@ -78,11 +78,24 @@
     ],
     "license": "MIT",
     "main": "src/js/bootstrap-datetimepicker.js",
+    "maintainers": [
+        {
+            "name": "eonasdan"
+        }
+    ],
     "name": "eonasdan-bootstrap-datetimepicker",
+    "optionalDependencies": {},
+    "peerDependencies": {
+        "bootstrap": "^3.3",
+        "jquery": "^1.8.3 || ^2.0 || ^3.0",
+        "moment": "^2.10",
+        "moment-timezone": "^0.4.0"
+    },
     "repository": {
         "type": "git",
-        "url": "https://github.com/eonasdan/bootstrap-datetimepicker.git"
+        "url": "git+https://github.com/eonasdan/bootstrap-datetimepicker.git"
     },
+    "scripts": {},
     "version": "4.17.47",
     "bin": {}
 }
